@@ -212,21 +212,22 @@
                     <div class="col-12 col-md-9">
                         <div class="nl-form mb-100">
                             <h4>Stay in touch with us</h4>
-                            <form action="#" method="post">
-                                <input type="email" name="nl-email" id="nlEmail" placeholder="Email Address ...">
-                                <button type="submit" class="d-none"></button>
-                            </form>
+                            <form action="newsletter.php" method="post" enctype="multipart/form-data">
+                                <input type="email" name="nl-email" id="nlEmail" placeholder="Email Address ..." required>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="view-projects-btn text-right mb-100">
-                            <a href="#" class="btn pixel-btn">Sign Up</a>
+                            <button type="submit" class="btn pixel-btn">Sign Up</a>
                         </div>
                     </div>
+                  </form>
+
                 </div>
             </div>
         </section>
         <!-- ##### Newsletter Area End ###### -->
+
 
     <!-- ##### Contact Area Start #####-->
     <section class="contact-area section-padding-100">
@@ -246,11 +247,12 @@
                 <div class="col-12 col-lg-8">
                     <!-- Contact Form -->
                     <div class="contact-form-area text-center">
-                        <form action="#" method="post">
+                        <form action="index.php" id="contactForm" method="POST" enctype="multipart/form-data" >
                             <input type="text" name="name" class="form-control wow fadeInUp" data-wow-delay="100ms" placeholder="Full Name" required>
                             <input type="email" name="email" class="form-control wow fadeInUp" data-wow-delay="300ms" placeholder="E-mail" required>
                             <input type="text" id="phoneNumber" name="phoneNumber" class="form-control wow fadeInUp" data-wow-delay="300ms" maxlength="16"  placeholder="Phone Number: (xxx) xxx - xxxx" required>
-                            <button type="submit" class="btn pixel-btn wow fadeInUp" data-wow-delay="900ms">Subscribe Now</button>
+                            <button type="submit" name="contactButton" class="btn pixel-btn wow fadeInUp" data-wow-delay="900ms">Subsribe Now </button>
+
                         </form>
                     </div>
                 </div>
@@ -259,6 +261,8 @@
         </div>
     </section>
     <!-- ##### Contact Area End #####-->
+
+
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area section-padding-100-0">
@@ -292,8 +296,6 @@
 
                             </div>
                         </div>
-
-
 
                         <!-- Single Footer Widget -->
                         <div class="col-sm-4">
@@ -351,7 +353,8 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> All 
     <script src="js/active.js"></script>
     <!-- Phone Format js -->
     <script src="js/phoneformatter.js"></script>
-
+    <!-- Home Page Contact Form  js -->
+    <script src="js/contactform.js"></script>
 </body>
 
 </html>
