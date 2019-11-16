@@ -795,7 +795,7 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 121, 2, 0.9);
+    background-color: #fee181;
     opacity: 0;
     visibility: hidden;
     -webkit-transition-duration: 500ms;
