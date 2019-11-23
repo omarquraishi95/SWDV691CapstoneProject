@@ -4,15 +4,17 @@ Capstone Project: Social Surge
 Description: 
 The point of this project is to compile your list of the food choices and activities that are needed to comiple the least amount of time.  The project will be built out to match a simple interface and additional requirements will be updated later in the coming weeks for the final project. 
 
-Technology:
+Technologies being used in this application:
 
 API Development: RestFul API web services
 
 Front End Development: Jquery, Bootstrap, HTML5, CSS3, and JavaScript
 
-Additonal API: Google Maps
+Addtional CSS Resources: Font Awesome 
 
-Datbase: SQLite3
+Additonal API: Google Maps 
+
+Database: SQLite3 SQL Engine
 
 Back End Technologies: PHP and Python3
 
