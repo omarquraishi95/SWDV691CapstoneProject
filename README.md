@@ -1,4 +1,4 @@
-# SWDV691CapstoneProject
+# Social Surge Capstone Project SWDV 691
 Capstone Project: Social Surge
 
 Description: 
