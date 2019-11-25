@@ -23,8 +23,6 @@
          EMAILADDRESS          TEXT    NOT NULL,
          PASSWORD          varchar(15)   NOT NULL,);
 
-
-
       CREATE TABLE SUBSCRIPTION
       (SUBSCRIPTIONID  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
       FULLNAME           varchar(25)    NOT NULL,
