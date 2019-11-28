@@ -55,7 +55,7 @@
                                 <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
 
-                          
+
 
 
 
@@ -167,14 +167,14 @@
                     <!-- Contact Form -->
                     <div class="contact-form-area mb-100">
                         <form action="contact.php" method="post" enctype="multipart/form-data">
-                            <input type="text" name="name" class="form-control" placeholder="Name">
-                            <h5>PREFERRED COMMUNICATION</h5>
+                            <input type="text" name="name" class="form-control" placeholder="Name" required>
+                            <h5>PREFERRED COMMUNICATION (Choose one method)</h5>
                             <input id="checkbox1" type="checkbox" name="preferredMethod" value="email"><label for="checkbox1"><span></span>Email</label>
                             <input id="checkbox2" type="checkbox" name="preferredMethod" value="phone"><label for="checkbox2"><span></span>Phone</label>
-                            <input type="email" name="email" class="form-control" placeholder="E-mail">
+                            <input type="email" name="email" class="form-control" placeholder="E-mail" required>
                             <input type="text" id="phoneNumber" name="phoneNumber" class="form-control wow fadeInUp" data-wow-delay="300ms" maxlength="16"  placeholder="Phone Number: (xxx) xxx - xxxx" required>
-                            <input type="text" name="subject" class="form-control" placeholder="Subject">
-                            <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                            <textarea name="message" class="form-control" placeholder="Message" required></textarea>
                             <button type="submit" name="submit" class="btn pixel-btn btn-3 m-2">Send Message</button>
                         </form>
                     </div>
