@@ -63,7 +63,6 @@
                                   <li><a href="about.html">About</a></li>
                                   <li><a href="contact.html">Contact</a></li>
                                   <li><a href="login.html">Login</a></li>
-
                                 </ul>
 
                                 <!-- Top Social Info -->
@@ -156,12 +155,29 @@
                         <h6>Please fill out the following fields in order to sign up.</h6>
                     </div>
 
+
+                    <script>
+
+                        function myFunction() {
+                            var change = document.getElementById("toggle");
+                            if (change.innerHTML == "on")
+                            {
+                                change.innerHTML = "off";
+                            }
+                            else {
+                                change.innerHTML = "on";
+                            }
+                        }
+
+                    </script>
+
+
                     <!-- Contact Form -->
                     <div class="contact-form-area mb-100">
-                        <form action="" method="post" enctype="multipart/form-data">
+                        <form action="login.php" method="post" enctype="multipart/form-data">
                             <input type="email" name="email" class="form-control" placeholder="E-mail">
                             <input type="password" name="password" class="form-control" placeholder="Enter Password">
-                            <button type="submit" name="submit" class="btn pixel-btn m-2" onclick="location.href = 'index.html';'">Sign Up</button>
+                            <button id="toggle" type="submit" name="submit" class="btn pixel-btn m-2">Sign Up</button>
                             <a href="signup.html">Not a User? Sign up Now!</a>
                         </form>
                     </div>
