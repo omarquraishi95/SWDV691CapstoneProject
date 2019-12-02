@@ -78,6 +78,3 @@ echo '<script>window.location.href = "/index.html";</script>';
 
 
  ?>
-
-
- <?php include_once("index.html"); ?>

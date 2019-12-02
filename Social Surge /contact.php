@@ -82,10 +82,6 @@ echo '<script language="javascript">';
 echo 'alert("message successfully sent")';
 echo '</script>';
 
-echo '<script>window.location.href = "/contact.html";</script>';
-
-
-
-
+header("Location: https://social-surge.herokuapp.com/contact.html");
 
  ?>
